@@ -1,0 +1,63 @@
+.header {
+    background-color: var(--dark-color);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 2%;
+    justify-content: space-between;
+}
+
+.header > h2 {
+    font-weight: normal;
+    color: var(--light-color);
+}
+
+.header__btns {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.header__btns > button {
+    width: 40px;
+    height: 40px;
+}
+
+.language__btn {
+    border: 1px solid var(--light-color);
+    color: var(--light-color);
+    background-color: var(--dark-color);
+    transition: var(--default-transition);
+}
+
+.language__btn:hover {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    box-shadow: 0 0 10px var(--light-color);
+}
+
+.avatar__btn {
+    border-radius: 50%;
+    border: none;
+    background-color: var(--light-color);
+    transition: var(--default-transition);
+}
+
+.avatar__btn:hover {
+    box-shadow: 0 0 10px var(--light-color);
+}
+
+.login__btn {
+    width: 90px;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid var(--light-color);
+    color: var(--light-color);
+    background-color: var(--dark-color);
+    transition: var(--default-transition);
+}
+
+.login__btn:hover {
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}

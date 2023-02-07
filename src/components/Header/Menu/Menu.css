@@ -1,0 +1,28 @@
+
+
+.menu {
+    position: absolute;
+    list-style: none;
+    width: 100px;
+    height: 100px;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    top: 55px;
+    right: 5px;
+}
+
+.menu > li {
+    height: 50px;
+    border: 1px solid var(--dark-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    transition: var(--default-transition);
+}
+
+.menu > li:hover{
+    color: var(--light-color);
+    background-color: var(--dark-color);
+}
